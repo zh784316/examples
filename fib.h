@@ -1,3 +1,14 @@
+/**
+ * @file fib.h
+ * @brief Define functions to calculate fibonacci.
+ * @author Krerkkiat Chusap
+ */
+
+/**
+ * @brief Calculate Fibonacci recursively
+ * @param n The n-th position of the Fibonacci number to get.
+ * @return The value of the Fibonacci number at position n-th.
+ */
 int fib_recursive(int n) {
     if (n == 1 || n == 2) {
         return 1;
@@ -6,7 +17,11 @@ int fib_recursive(int n) {
     return fib_recursive(n - 1) + fib_recursive(n - 2);
 }
 
-
+/**
+ * @brief Calculate Fibonacci iteratively
+ * @param n The n-th position of the Fibonacci number to get.
+ * @return The value of the Fibonacci number at position n-th.
+*/
 int fib_iterative(int n) {
     int a, b, temp;
     a = 1;
