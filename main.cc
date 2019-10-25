@@ -1,3 +1,7 @@
+/**
+ * @file main.cc
+ * @author Krerkkiat Chusap
+ */
 #include <iostream>
 
 #include "fib.h"
