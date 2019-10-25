@@ -1,2 +1,7 @@
 # Executables
 a.out
+main
+
+# Generated files
+*.o
+*-dist.tar.gz
