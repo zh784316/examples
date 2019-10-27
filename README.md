@@ -4,6 +4,7 @@ Example project that uses Doxygen, Makefile, Catch2, Travis CI.
 
 This is a simple project that contain some of the tools used in the class. For example,
 
+- .gitignore
 - Git with commit message in Commitizen convention (https://commitizen.github.io/cz-cli/).
 - Makefile
 - Doxygen
