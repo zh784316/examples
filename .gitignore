@@ -1,7 +1,10 @@
-# Executables
+# Executable files
 a.out
 main
 
 # Generated files
 *.o
 *-dist.tar.gz
+
+# vscode
+*.code-workspace
