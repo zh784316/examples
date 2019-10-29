@@ -3,6 +3,7 @@
  * @brief Define functions to calculate fibonacci.
  * @author Krerkkiat Chusap
  */
+#include <iostream>
 
 /**
  * @brief Calculate Fibonacci recursively
@@ -27,10 +28,14 @@ int fib_iterative(int n) {
     a = 1;
     b = 1;
 
-    while (n != 1) {
+    if (n == 1 || n == 2) {
+        return 1;
+    } 
+
+    for (int i = 3; i <= n; i++) {
         temp = b;
         b = a + b;
-        a = b;
+        a = temp;
     }
 
     return b;
