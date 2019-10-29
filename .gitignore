@@ -6,5 +6,8 @@ main
 *.o
 *-dist.tar.gz
 
+# Generated documentation
+html/
+
 # vscode
 *.code-workspace

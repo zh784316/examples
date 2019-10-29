@@ -9,7 +9,7 @@ LDFLAGS=
 # Defailt target to build and pack
 # Note: there is no command since the Make will run
 # the dependencis if it is no up-to-date
-all: build pack
+all: build doc pack
 
 # This is a target that will compile every component of the
 # project, in this case there is only one: main
@@ -38,6 +38,9 @@ main.o: main.cc fib.h
 pack: main.cc fib.h Makefile
 # $^ refers to all entries in the dependency list of this target.
 	tar czf fib-dist.tar.gz $^
+
+doc:
+	doxygen Doxyfile
 
 # To mainly remove any generated file.
 clean:
