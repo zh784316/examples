@@ -9,7 +9,7 @@ This is a simple project that contain some of the tools used in the class. For e
 - Makefile
 - Doxygen with Netlify
 - Catch2
-- Travis CI
+- Travis CI (The idea of integrating this into class is heavily influenced by Mr. Robert Foreman).
 - maybe Google Test Framework (using Docker image)
 
 ## Git with commit message in Commitizen convention
