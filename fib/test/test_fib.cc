@@ -41,3 +41,12 @@ TEST_CASE( "Recursive version should work" ) {
   REQUIRE(result == 21);
   REQUIRE_THAT( result_f, WithinAbs(21.0, 0.05) );
 }
+
+TEST_CASE("Test") {
+  // Setup.
+
+  // Try to get the result.
+  int result = fib_recursive(9);
+
+  REQUIRE( result == fib_recursive(8) + 21);
+}
