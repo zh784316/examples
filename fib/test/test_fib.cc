@@ -48,5 +48,5 @@ TEST_CASE("Test") {
   // Try to get the result.
   int result = fib_recursive(9);
 
-  REQUIRE( result == fib_recursive(8) + 21);
+  REQUIRE( result == (fib_recursive(8) + 13));
 }
